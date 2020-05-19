@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* more on this crazy alphanumerical value in a minute! */
+  /* I'm a CSS comment! */
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* apply styles to <header> */
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
+
+/* apply styles to header h1 only */
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  display: inline;
+}
+
+/* apply yellow color to header hr anchors and removes link decorations */
+header h1 a {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  text-decoration: none;
+}
+
+/* apply style to header anchors only */
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
+
+/* apply style to header nav only */
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+
+/* apply style to header nav lists */
+header nav ul li {
+  display: inline;
+}
+
+/* apply style to header nav list anchors */
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
