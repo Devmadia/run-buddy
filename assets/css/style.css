@@ -155,3 +155,32 @@ section {
 }
 /* hero-form button style end */
 
+/* intro style start */
+.intro {
+  text-align: center;
+}
+/* intro style end */
+
+/* intro h2 style start */
+.intro h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  border-color: #fce138;
+  /* adjusts border-bottom display to keep it from going across page */
+  display: inline-block;
+}
+/* intro h2 style end */
+
+/* intro p style start */
+.intro p {
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  font-size: 20px;
+  /* margin adjusts to streamline p text as if centered */
+  margin: 0 auto;
+}
+/* intro p style end */
