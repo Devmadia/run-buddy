@@ -23,6 +23,7 @@
 .page-title {
     font-weight: normal;
     font-size: 42px;
+    color: #fce138;
     font-style: italic;
     margin-bottom: 35px;
     padding: 70px 110px 20px 110px;
@@ -34,6 +35,41 @@
 /* PAGE-TITLE H2 STYLE START */
 .page-title h2 {
     border-color: #fce138;
-    
 }
 /* PAGE-TITLE H2 STYLE END */
+
+/* SECONDARY-CONTENT STYLE START */
+.secondary-content {
+    width: 80%;
+    margin: auto;
+    color: #024e76;
+}
+/* SECONDARY-CONTENT STYLE END */
+
+/* SECONDARY-CONTENT H3 STYLE START */
+.secondary-content h3 {
+    font-size: 25px;
+    margin: 20px 0 20px 0;
+}
+/* SECONDARY-CONTENT H3 STYLE END */
+
+/* SECONDARY-CONTENT P STYLE START */
+.secondary-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0 20px 0;
+}
+/* SECONDARY-CONTENT P STYLE END */
+
+/* SECONDARY-CONTENT UL STYLE START */
+.secondary-content ul {
+    margin: 15px 20px 15px 20px;
+}
+/* SECONDARY-CONTENT UL STYLE END */
+
+/* SECONDARY-CONTENT LI STYLE START */
+.secondary-content li {
+    color: #39a6b2;
+    margin: 10px 0px 10px 0px;
+}
+/* SECONDARY-CONTENT LI STYLE END */
