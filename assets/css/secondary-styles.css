@@ -1,0 +1,39 @@
+/* HERO PAGE STYLE START 
+.hero {
+    background-position: bottom;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+/* HERO PAGE STYLE END */
+
+/* SECONDARY PAGE HERO STYLE START */
+.hero-secondary {
+    margin: 20px;
+    background-color: white;
+    background-position: bottom;
+    height: 300px;
+    font-size: 20px;
+    color: #fce138;
+    text-align: center;
+  }
+  /* SECONDARY PAGE HERO STYLE END*/
+
+/* PAGE-TITLE STYLE START */
+.page-title {
+    font-weight: normal;
+    font-size: 42px;
+    font-style: italic;
+    margin-bottom: 35px;
+    padding: 70px 110px 20px 110px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+/* PAGE-TITLE STYLE END */
+
+/* PAGE-TITLE H2 STYLE START */
+.page-title h2 {
+    border-color: #fce138;
+    
+}
+/* PAGE-TITLE H2 STYLE END */
