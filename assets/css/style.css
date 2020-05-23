@@ -86,12 +86,13 @@ footer a {
   color: #024e76;
 }
 
-/* section styles begin here */
+/* section styles start */
 section {
   padding: 60px;
 }
+/* sections style ends */
 
-/* Hero Style Start */
+/* HOMEPAGE HERO STYLE START */
 .hero {
   background-image: url("../images/hero-bg.jpg");
   height: 600px;
@@ -99,7 +100,7 @@ section {
   background-position: center;
   position: relative;
 }
-/* Hero Style End */
+/* HOMEPAGE HERO STYLE END */
 
 /* Hero-form Style Start */
 .hero-form {
