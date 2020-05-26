@@ -238,8 +238,6 @@ section {
 }
 /* steps div style end*/
 
-
-
 .step {
   margin: 50px auto;
   padding-bottom: 50px;
@@ -251,19 +249,35 @@ section {
   justify-content: space-between;
 }
 
+.step-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 /* steps img style start */
-.step img {
-  width: 15%;
-  margin: 10px 0;
-} 
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.step-img img {
+  max-width: 100%;
+}
 /* steps img style end */
 
 /* steps h3 style start */
 .step h3 {
   color: #024e76;
   font-size: 46px;
+  flex: 1 30%;
 }
 /* steps h3 style end */
+
+.step-text {
+  flex: 12;
+}
 
 /* steps p style start */
 .step-text p {
