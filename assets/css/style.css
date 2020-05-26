@@ -232,35 +232,53 @@ section {
 /* } */
 /* steps h2 style end */
 
-/* steps div style start */
+/* steps div style start 
 .steps div {
   margin-bottom: 80px;
 }
 /* steps div style end*/
 
+
+
+.step {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #39a6b2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* steps img style start */
-.steps img {
+.step img {
   width: 15%;
   margin: 10px 0;
 } 
 /* steps img style end */
 
 /* steps h3 style start */
-.steps h3 {
+.step h3 {
   color: #024e76;
   font-size: 46px;
-  margin-top: 10px;
 }
 /* steps h3 style end */
 
 /* steps p style start */
-.steps p {
+.step-text p {
   color: #39a6b2;
-  font-size: 23px;
+  font-size: 18px;
 }
 /* steps p style end */
 
-/* steps span style start */
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76;
+}
+
+/* steps span style start 
 .steps span {
   font-size: 38px;
 }
