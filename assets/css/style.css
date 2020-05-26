@@ -185,7 +185,6 @@ section {
 }
 /* hero-form button style end */
 
-/* intro style start 
 .intro {
   text-align: center;
 }*/
@@ -283,7 +282,7 @@ section {
 
 /* trainer style start (not to be confused with trainers) */
 .trainer {
-  margin: 0 auto 20px auto;
+  margin: 20px;
   background: #024e76;
   color: #fce138;
   flex: 1;
@@ -302,18 +301,6 @@ section {
   line-height: 1.3;
 }
 /* trainer-bio style end */
-
-/* text-left align style start - for adjusting the trainer bios, but can be used anywhere */
-.text-left {
-  text-align: left;
-}
-/* text-left align style end */
-
-/* text-right align style start - for adjusting the trainer bios, but can be used anywhere */
-.text-right {
-  text-align: right;
-}
-/* text-right align style end */
 
 .flex-row {
   display: flex;
@@ -344,7 +331,7 @@ section {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /* REACH OUT STYLES START */
@@ -363,20 +350,25 @@ section {
 
 /* contact-info iframe style start */
 
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
 /* contact-info iframe used because iframe alone presumes no other iframe will be introduced later on */
 .contact-info iframe {
-  width: 400px;
   height: 400px;
 }
 /* contact-info iframe style ends */
 
 /* contact-info div style start */
 .contact-info div {
-  width: 410px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  margin: 30px 0 0 60px;
   color: white;
 }
 /* contact-info div style end */
@@ -389,12 +381,33 @@ section {
 .contact-info p, .contact-info address {
   margin: 20px 0;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
 }
 
 .contact-info a {
   color: #fce138;
+}
+
+.contact-form input, .contact-form textarea {
+  border: qpx solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: #fce138;
+  color: #024e76;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
 }
 /* REACH OUT STYLES END */
 
