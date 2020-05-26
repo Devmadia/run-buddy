@@ -185,11 +185,11 @@ section {
 }
 /* hero-form button style end */
 
-/* intro style start */
+/* intro style start 
 .intro {
   text-align: center;
-}
-/* intro style end */
+}*/
+
 
 /* intro p style start */
 .intro p {
@@ -197,14 +197,13 @@ section {
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
-  /* margin adjusts to streamline p text as if centered */
+  text-align: center;
   margin: 0 auto;
 }
 /* intro p style end */
 
 /* steps style start */
 .steps { 
-  text-align: center;
   background: #fce138;
 }
 /* steps style end*/
@@ -213,10 +212,11 @@ section {
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 .primary-border {
@@ -268,11 +268,11 @@ section {
 
 /* TRAINER SECTION STYLE STARTS */
 
-/* trainers style start */
+/* trainers style start 
 .trainers {
   text-align: center;
 }
-/* trainers style end */
+ trainers style end */
 
 /* trainer style start (not to be confused with trainers) */
 .trainer {
@@ -311,6 +311,10 @@ section {
 }
 /* text-right align style end */
 
+.flex-row {
+  display: flex;
+}
+
 /* trainer-bio h3 style start */
 .trainer-bio h3 {
   font-size: 32px;
@@ -337,7 +341,6 @@ section {
 
 /* contact style start */
 .contact {
-  text-align: center;
   background: #024e76;
 }
 /* contact style end */
@@ -383,6 +386,6 @@ section {
 .contact-info a {
   color: #fce138;
 }
-
 /* REACH OUT STYLES END */
+
 
